@@ -49,6 +49,12 @@ textarea:focus-within {
 textarea::placeholder {
     color: #f5deb381;
 }
+dd{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0%;
+}
 
 .nav-div {
     display: flex;
@@ -103,6 +109,20 @@ textarea::placeholder {
     transition: 700ms;
     font-weight: 700;
     box-shadow: none;
+}
+.main-noteblock:hover #modal-action-blocknote dd{
+    border: none;
+    background-color: #2F4F4F;
+    scale: 1.05;
+    transition: ease-in-out 400ms;
+}
+
+.main-noteblock:hover #modal-action-blocknote dd a{
+    color: #F5DEB3;
+}
+
+.main-noteblock #modal-action-blocknote dd:hover a i{
+    scale: 1.1;
 }
 
 .main-noteblock:hover .ntblock-icon div {
@@ -179,44 +199,33 @@ textarea::placeholder {
     background-color: transparent;
     display: flex;
     position: absolute;
-    bottom: 6.7rem;
-    right: -5rem;
+    bottom: 5.6rem;
+    right: -4.1rem;
 }
 
 #modal-action-blocknote dd {
-    background-color: #2F4F4F;
-    color: #F5DEB3;
+    background-color: transparent;
     width: 7rem;
     height: 3rem;
     position: relative;
     top: 5.3rem;
     right: 7.4rem;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding-top: 1rem;
     font-weight: 700;
+    padding: 0%;
 }
 
-#modal-action-blocknote dd:hover {
-    background-color: #F5DEB3;
-    color: #2F4F4F;
-    border: 1px solid #F5DEB3;
-    scale: 1.05;
-    transition: ease-in-out 400ms;
-}
-
-#modal-action-blocknote dd:hover a {
-    color: #2F4F4F;
+#modal-action-blocknote:hover dd a {
+    color: #F5DEB3;
 }
 #modal-action-blocknote dd:nth-child(1) {
     border-radius: 10px 0 0 10px;
 }
 #modal-action-blocknote dd:nth-child(2) {
     border-radius: 0 10px 10px 0;
-}
-
-#modal-action-blocknote dd a {
-    background-color: transparent;
-    color: #F5DEB3;
 }
 
 .modal-content {
