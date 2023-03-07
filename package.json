@@ -1,0 +1,23 @@
+{
+  "name": "blocodenotas",
+  "version": "0.1.0",
+  "description": "Bloco de notas online para uso pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickdmatos/BlocoDeNotas.git"
+  },
+  "author": "patrickDMatos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickdmatos/BlocoDeNotas/issues"
+  },
+  "homepage": "https://github.com/patrickdmatos/BlocoDeNotas#readme",
+  "dependencies": {
+    "react-bootstrap": "^2.7.2",
+    "react-icons": "^4.8.0"
+  }
+}
