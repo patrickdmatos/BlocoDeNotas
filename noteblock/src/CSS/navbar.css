@@ -1,0 +1,25 @@
+div{
+    width: 100vw;
+    height: 4rem;
+    border-bottom: 1px solid #fac0c0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+a{
+    font-size: 2.2rem;
+    height: 100%;
+    width: 5rem;
+    margin-right: 0.4rem;
+    transition: 500ms;
+    padding-top: 0.8rem;
+    color: #fac0c0;
+}
+a:hover{
+    color: #160101;
+    background-color: #fac0c0;
+}
+a:hover > * {
+    scale: 1.2;
+}
